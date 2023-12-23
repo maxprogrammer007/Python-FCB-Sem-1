@@ -13,4 +13,3 @@ plt.ylabel('Y-axis')
 plt.legend()  # Show legend
 plt.grid(True)  # Show grid
 plt.show()  # Display the plot
-# C:\Users\Administrator\AppData\Local\Programs\Python\Python312
