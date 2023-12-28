@@ -109,17 +109,3 @@ plt.ylabel('Marks')
 plt.xticks(rotation=45, ha='right')
 plt.show()
 
-# Stacked bar plot for pass/fail by student
-pass_fail_df = pd.DataFrame({
-    'Pass': df['FCB Marks'] >= pass_threshold,
-    'Fail': df['FCB Marks'] < pass_threshold
-})
-
-plt.figure(figsize=(12, 6))
-pass_fail_df.astype(int).plot(kind='bar', stacked=True, color=['lightgreen', 'lightcoral'])
-plt.title('Pass/Fail by Student')
-plt.xlabel('Student')
-plt.ylabel('Count')
-plt.xticks(rotation=45, ha='right')
-plt.show()
-
