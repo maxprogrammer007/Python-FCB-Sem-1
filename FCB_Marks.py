@@ -100,12 +100,3 @@ plt.ylabel('Marks')
 plt.xticks(rotation=45, ha='right')
 plt.show()
 
-# Error bar plot
-plt.figure(figsize=(10, 6))
-plt.bar(df['Name'], df['FCB Marks'], color='skyblue', alpha=0.7, yerr=3)
-plt.title('Bar Plot with Error Bars')
-plt.xlabel('Student')
-plt.ylabel('Marks')
-plt.xticks(rotation=45, ha='right')
-plt.show()
-
