@@ -91,9 +91,6 @@ plt.title('Swarm Plot of FCB Marks')
 plt.xlabel('Marks')
 plt.show()
 
-
-
-
 # Line plot
 plt.figure(figsize=(12, 6))
 plt.plot(df['Name'], df['FCB Marks'], marker='o', linestyle='-', color='purple')
