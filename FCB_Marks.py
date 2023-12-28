@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-# Your data
+
 data = {
     'Name': [f'Student_{i}' for i in range(1, 74)],
     'FCB Marks': [29, 35, 35, 21, 33, 20, 17, 39, 10, 19, 35, 30, 27, 9, 33, 34, 31, 14, 38, 23, 17, 11, 31, 15, 40, 28, 20, 28, 26, 32, 29, 27, 23, 20, 38, 12, 32, 26, 32, 39, 30, 17, 23, 21, 23, 35, 36, 19, 0, 16, 35, 10, 24, 39, 10, 19, 18, 29, 16, 33, 24, 38, 32, 4, 40, 32, 30, 34, 10, 21, 38, 31, 33],
@@ -48,7 +48,7 @@ sns.kdeplot(df['FCB Marks'], shade=True, color='green')
 plt.title('Kernel Density Estimate (KDE) Plot of FCB Marks')
 plt.xlabel('Marks')
 plt.ylabel('Density')
-plt.xlim(0, 40)  # Set x-axis limits to reflect the actual range of marks
+plt.xlim(0, 40)  
 plt.show()
 
 
