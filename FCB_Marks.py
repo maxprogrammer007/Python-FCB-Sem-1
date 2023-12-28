@@ -73,7 +73,7 @@ plt.xlabel('Marks')
 plt.ylabel('Cumulative Probability')
 plt.show()
 
-# Bar plot (Pass/Fail)
+# Pie Chart (Pass/Fail)
 pass_threshold = 14
 pass_fail_counts = [len(df[df['FCB Marks'] >= pass_threshold]), len(df[df['FCB Marks'] < pass_threshold])]
 labels = ['Pass', 'Fail']
